@@ -1,0 +1,29 @@
+{
+  "name": "quick-jsonschema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jasmine index_spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heartnetkung/quick-jsonschema.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heartnetkung/quick-jsonschema/issues"
+  },
+  "homepage": "https://github.com/heartnetkung/quick-jsonschema#readme",
+  "devDependencies": {
+    "jasmine": "^2.5.3"
+  },
+  "dependencies": {
+    "jsonschema": "^1.1.1",
+    "lodash": "^4.17.4"
+  },
+  "engines": {
+    "node": ">=5.0.0"
+  }
+}
